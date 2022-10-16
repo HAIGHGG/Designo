@@ -37,7 +37,7 @@ export const HomeHeader = styled.header`
 		}
 		
 	}
-	@media (min-width: 1920px) {
+	/* @media (min-width: 1920px) {
 		h1{
 			font-size: 64px;
 			line-height: 72px;
@@ -46,5 +46,5 @@ export const HomeHeader = styled.header`
 			font-size: 36px;
 			line-height: 52px;
 		}
-	}
+	} */
 `

@@ -33,7 +33,7 @@ export const TraitWrapper = styled.div`
 			text-align: center;
 		}
 	}
-	@media (min-width: 1920px) {
+	/* @media (min-width: 1920px) {
 		h3 {
 			font-size: 32px;
 			line-height: 52px;
@@ -41,5 +41,5 @@ export const TraitWrapper = styled.div`
 		p{
 			font-size: 24px;
 		}
-	}
+	} */
 `

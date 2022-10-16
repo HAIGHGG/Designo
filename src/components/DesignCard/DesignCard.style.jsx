@@ -36,7 +36,7 @@ export const DesignCardWrapper = styled.div`
 			width: 100%;
 		}
 	}
-	@media (min-width: 1440px) {
+	/* @media (min-width: 1920px) {
 		h3 {
 			font-size: 32px;
 		}
@@ -44,5 +44,5 @@ export const DesignCardWrapper = styled.div`
 			font-size: 24px;
 			line-height: 32px;
 		}
-	}
+	} */
 `

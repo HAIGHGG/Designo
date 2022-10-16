@@ -41,7 +41,7 @@ export const StyledForm = styled.div`
 			align-self: flex-end;
 		}
 	}
-	@media (min-width: 1920px) {
+	/* @media (min-width: 1920px) {
 		h2{
 			font-size: 52px;
 		}
@@ -51,5 +51,5 @@ export const StyledForm = styled.div`
 		input{
 			font-size: 24px;
 		}
-	}
+	} */
 `

@@ -33,7 +33,7 @@ export const LocationWrapper = styled.div`
 	@media (min-width: 1440px) {
 		margin: 0 60px 50px 60px;
 	}
-	@media (min-width: 1920px) {
+	/* @media (min-width: 1920px) {
 		margin: 0 140px 50px 140px;
 		h3 {
 			font-size: 28px;
@@ -45,5 +45,5 @@ export const LocationWrapper = styled.div`
 			margin-top: 25px;
 			font-size: 24px;
 		}
-	}
+	} */
 `

@@ -112,7 +112,7 @@ export const StyledFooter = styled.footer`
 			width: 77%;
 		}
 	}
-	@media (min-width: 1920px) {
+	/* @media (min-width: 1920px) {
 
 		h4{
 			font-size: 32px;
@@ -122,5 +122,5 @@ export const StyledFooter = styled.footer`
 			font-size: 20px;
 		}
 
-	}
+	} */
 `

@@ -35,7 +35,7 @@ export const StyledHeader = styled.header`
 		width: 100%;
 		flex-direction: column;
 	}
-	@media (min-width: 1920px) {
+	/* @media (min-width: 1920px) {
 		h1 {
 			font-size: 52px;
 			line-height: 72px;
@@ -44,5 +44,5 @@ export const StyledHeader = styled.header`
 			font-size: 24px;
 			line-height: 52px;
 		}
-	}
+	} */
 `

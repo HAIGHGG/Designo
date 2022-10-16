@@ -11,10 +11,10 @@ export const StyledButton = styled.button`
 	font-weight: 500;
 	cursor: pointer;
 
-	@media (min-width: 1920px) {
+	/* @media (min-width: 1920px) {
 		width: auto;
 		height: auto;
 		padding: 20px 25px;
 		font-size: 24px;
-	}
+	} */
 `

@@ -22,7 +22,7 @@ export const ProjectCardWrapper = styled.div`
 	@media (min-width: 1440px) {
 		height: 100%;
 	}
-	@media (min-width: 1920px) {
+	/* @media (min-width: 1920px) {
 		h2 {
 			font-size: 52px;
 		}
@@ -30,5 +30,5 @@ export const ProjectCardWrapper = styled.div`
 			font-size: 32px;
 			line-height: 52px;
 		}
-	}
+	} */
 `

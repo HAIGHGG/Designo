@@ -29,13 +29,8 @@ export const InformationCardWrapper = styled.div`
 		align-items: center;
 	}
 	@media (min-width: 1920px) {
-		h2{
-			font-size: 48px;
-			line-height: 92px;
-		}
-		p{
-			font-size: 22px;
-			line-height: 36px;
+		.text-wrapper {
+			padding: 75px 100px;
 		}
 	}
 

@@ -64,16 +64,6 @@ export const MapCardWrapper = styled.div`
 				max-width: 320px;
 			}
 		}
-		h2 {
-			font-size: 52px;
-		}
-		h4 {
-			font-size: 34px;
-			line-height: 56px;
-		}
-		p {
-			font-size: 24px;
-			line-height: 32px;
-		}
+
 	}
 `
