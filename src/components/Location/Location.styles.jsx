@@ -27,7 +27,12 @@ export const LocationWrapper = styled.div`
 		border-radius: 8px;
 		color: var(--white);
 		background-color: var(--peach);
+		transition: background-color 0.2s;
 		cursor: pointer;
+
+		:hover{
+			background-color: var(--light-peach);
+		}
 	}
 
 	@media (min-width: 1440px) {

@@ -31,8 +31,14 @@ export const Wrapper = styled.nav`
 			flex-direction: row;
 			font-size: 14px;
 			gap: 40px;
+
 			a {
 				color: var(--black);
+				transition: color 0.2s;
+				
+				:hover{
+					color: var(--peach);
+				}
 			}
 		}
 	}

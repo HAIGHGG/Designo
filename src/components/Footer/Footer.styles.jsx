@@ -12,6 +12,10 @@ export const StyledFooter = styled.footer`
 
 	a {
 		color: var(--white);
+		transition: color 0.2s;
+		:hover{
+			color: var(--peach);
+		}
 	}
 
 	img {
@@ -20,6 +24,11 @@ export const StyledFooter = styled.footer`
 
 	svg {
 		margin: 0 9px;
+		transition: transform 0.2s;
+		
+		:hover{
+			transform: scale(1.5);
+		}
 	}
 	/* .bar {
 		height: 1px;

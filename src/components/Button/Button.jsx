@@ -10,6 +10,12 @@ export const StyledButton = styled.button`
 	font-size: 15px;
 	font-weight: 500;
 	cursor: pointer;
+	transition: color 0.2s, background-color 0.2s;
+
+	:hover{
+		color: white;
+		background-color: var(--light-peach);
+	}
 
 	/* @media (min-width: 1920px) {
 		width: auto;

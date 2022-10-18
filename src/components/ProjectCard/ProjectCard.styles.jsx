@@ -9,9 +9,16 @@ export const ProjectCardWrapper = styled.div`
 	min-width: 327px;
 	border-radius: 15px;
 	color: var(--white);
+	transition: transform 0.2s, color 0.2s;
+
 
 	span {
 		color: var(--peach);
+	}
+
+	:hover{
+		color: var(--peach);
+		transform: scale(1.05);
 	}
 
 	@media (min-width: 768px) {
