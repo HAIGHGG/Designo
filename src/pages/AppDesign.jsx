@@ -62,6 +62,7 @@ function AppDesign() {
 						title: 'WEB DESIGN',
 						imageMobile: `url(./assets/home/mobile/image-web-design.jpg)`,
 						imageTablet: `url(./assets/home/tablet/image-web-design.jpg)`,
+						imageDesktop: `url(./assets/home/desktop/image-web-design-small.jpg)`,
 					}}
 				/>
 				<ProjectCard
@@ -70,6 +71,7 @@ function AppDesign() {
 						title: 'GRAPHIC DESIGN',
 						imageMobile: `url(./assets/home/mobile/image-graphic-design.jpg)`,
 						imageTablet: `url(./assets/home/tablet/image-graphic-design.jpg)`,
+						imageDesktop: `url(./assets/home/desktop/image-graphic-design.jpg)`,
 					}}
 				/>
 			</DesignCardsGridLayout>

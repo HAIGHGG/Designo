@@ -37,6 +37,7 @@ function Home() {
 						title: 'WEB DESIGN',
 						imageMobile: `url(./assets/home/mobile/image-web-design.jpg)`,
 						imageTablet: `url(./assets/home/tablet/image-web-design.jpg)`,
+						imageDesktop: `url(./assets/home/desktop/image-web-design-large.jpg)`,
 					}}
 				/>
 				<ProjectCard
@@ -45,6 +46,7 @@ function Home() {
 						title: 'APP DESIGN',
 						imageMobile: `url(./assets/home/mobile/image-app-design.jpg)`,
 						imageTablet: `url(./assets/home/tablet/image-app-design.jpg)`,
+						imageDesktop: `url(./assets/home/desktop/image-app-design.jpg)`,
 					}}
 				/>
 				<ProjectCard
@@ -53,6 +55,7 @@ function Home() {
 						title: 'GRAPHIC DESIGN',
 						imageMobile: `url(./assets/home/mobile/image-graphic-design.jpg)`,
 						imageTablet: `url(./assets/home/tablet/image-graphic-design.jpg)`,
+						imageDesktop: `url(./assets/home/desktop/image-graphic-design.jpg)`,
 					}}
 				/>
 			</HomeGridLayout>

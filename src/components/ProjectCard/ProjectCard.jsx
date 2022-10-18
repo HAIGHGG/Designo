@@ -5,12 +5,14 @@ import { useMediaQuery } from 'react-responsive'
 
 function ProjectCard({ card }) {
 	const isMobile = useMediaQuery({ query: '(max-width: 767px)' })
+	const isDesktop = useMediaQuery({ query: '(min-width: 1440px)' })
+	const ImageGradient = "linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),"
 
 	return (
 		<Link to={'/' + card.id} className={card.id}>
 			<ProjectCardWrapper
 				style={{
-					backgroundImage: isMobile ? 'linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),' + card.imageMobile : 'linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),' + card.imageTablet,
+					backgroundImage: ImageGradient + (isMobile ? card.imageMobile : isDesktop ? card.imageDesktop : card.imageTablet)
 				}}>
 				<h2>{card.title}</h2>
 				<h3>
